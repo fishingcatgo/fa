@@ -33,7 +33,8 @@ def get_one_face(frame : Frame, position : int = 0) -> Optional[Face]:
 		try:
 			return many_faces[position]
 		except IndexError:
-			return many_faces[-1]
+			# return many_faces[-1]
+			return None #api改None
 	return None
 
 
