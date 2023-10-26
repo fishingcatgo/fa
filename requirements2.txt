@@ -1,0 +1,15 @@
+basicsr
+gradio==3.47.1
+insightface
+numpy
+onnx
+onnxruntime
+opencv-python==4.8.1.78
+opennsfw2==0.10.2
+pillow
+protobuf
+psutil
+realesrgan
+tensorflow==2.13.0
+torch
+tqdm
